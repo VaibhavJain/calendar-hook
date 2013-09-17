@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.liferay.hook.calendar.service.CalEventAttendeeLocalService" class="com.liferay.hook.calendar.service.impl.CalEventAttendeeLocalServiceImpl" />
+	<bean id="com.liferay.hook.calendar.service.CalEventAttendeeService" class="com.liferay.hook.calendar.service.impl.CalEventAttendeeServiceImpl" />
+	<bean id="com.liferay.hook.calendar.service.persistence.CalEventAttendeePersistence" class="com.liferay.hook.calendar.service.persistence.CalEventAttendeePersistenceImpl" parent="basePersistence" />
+</beans>

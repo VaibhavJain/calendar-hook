@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.hook.calendar.model.CalEventAttendee">
+		<field name="calEventAttendeeId" type="long" />
+		<field name="eventId" type="long" />
+		<field name="userId" type="long" />
+		<field name="assist" type="boolean" />
+	</model>
+</model-hints>
